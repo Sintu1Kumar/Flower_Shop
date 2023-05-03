@@ -1,0 +1,1959 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    display: flex;
+    float: right;
+    align-items: center;
+    list-style: none;
+    height: auto;
+    margin-left: 30vw;
+    margin-top: -675px;
+    position: relative;
+    justify-content: space-evenly;
+    padding: 15px;
+    color: black;
+}
+#logo{
+    position: relative;
+    margin-top: -1250px;
+    margin-left: 20px;
+    height: 4.5rem;
+}
+.headertext{
+    position: absolute;
+    margin-left: 8vw;
+    margin-top: -450px;
+}
+.headertext h1{
+    display: block;
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    font-weight: 400;
+}
+.headertext h2{
+    display: block;
+    color: white;
+    font-size: 4rem;
+    margin-top: 0.3rem;
+    font-family: Lora,sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.headertext button{
+    border: 1px solid white;
+    padding: 1rem 2rem;
+    margin-top: 5vh;
+    background-color: #121615;
+    color: white;
+    text-transform: uppercase;
+    transition: color .3s ease,background-color .3s ease,border-color .3s ease;
+    cursor: pointer;
+}
+.headertext button:hover{
+    background-color: white;
+    color: black;
+}
+
+#navbar li{
+    position: relative;
+}
+#navbar ul li{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 3vw;
+    margin-top: 2vh;
+}
+#navbar>ul>li>a{
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+.submenu{
+    position: absolute;
+    background-color: white;
+    width: 210px;
+    display: none;
+    padding-left: 0%;
+}
+.submenu1{
+    position: absolute;
+    background-color: white;
+    left: 100%;
+    width: 200px;
+    top: 20px;
+    padding-left: 0%;
+    display: none;
+}
+.submenu2{
+    width: 80vw;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    position: absolute;
+    left: -147vh;
+    color: black;
+    font-weight: 700;
+}
+.submenu2 header{
+    text-transform: uppercase;
+}
+.col{
+    padding: 8px;
+    border-left: 1px solid black;
+    background-color: white;
+}
+.submenu3 li a{
+    display: block;
+    justify-content: space-around;
+    margin-left: -82px;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+#navbar li:hover > .submenu{
+    display: block;
+    transition: all 0.7s;
+}
+.submenu li:hover > .submenu1{
+    display: block;
+    transition: all 0.7s;
+}
+.hamburger{
+    height:35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 3vw;
+    margin-top: 1vh;
+}
+.line1{
+    width:20px;
+    border: 1px solid white;
+}
+.line2{
+    width:20px;
+    border: 1px solid white;
+}
+.line3{
+    width:20px;
+    border: 1px solid white;
+}
+/* Section 1 */
+#section1{
+    margin-top: -22px;
+    background-color: #FFF0E9;
+    height: 90vh;
+}
+#background1{
+    margin-left: 29vw;
+    padding-top: 60px;
+    z-index: -1;
+}
+#text1{
+    margin-top: -280px;
+    margin-left: 7rem;
+    letter-spacing: 0.1rem;
+}
+#text1 h1{
+    display: block;
+    color: #1b1b1b;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    font-weight: 400;
+}
+#text1 h2{
+    display: block;
+    color: #1b1b1b;
+    font-size: 2rem;
+    margin-top: 0.3rem;
+    font-family: Lora,sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#text1 p{
+    display: block;
+    color: #1b1b1b;
+    margin-top: 0.5rem;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#text1 button{
+    border: 1px solid black;
+    padding: 1.3rem 1.8rem;
+    margin-top: 5vh;
+    background-color: #FFF0E9;
+    transition: color .3s ease,background-color .3s ease,border-color .3s ease;
+    cursor: pointer;
+}
+#text1 button:hover{
+    background-color: #1b1b1b;
+    color: white;
+}
+#img1{
+    float: right;
+    margin-top: -45vh;
+    margin-right: 6vw;
+}
+#img1 img{
+    height: 300px;
+    width: auto;
+}
+#text2{
+    text-align: center;
+    margin-top: 15vh;
+}
+#text2 h1{
+    color: #1b1b1b;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+#text2 h2{
+    color: #1b1b1b;
+    font-size: 2.5rem;
+    margin-top: 0.3rem;
+    font-family: Lora,sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+/* section 2 */
+.flower_prise{
+    display: inline-block;
+    flex-direction: row;
+    justify-items: center;
+    margin-top: 7vh;
+    margin-left: 6vw;
+    height: 520px;
+    border: 1px solid #777;
+    justify-content: center;
+    text-align: center;
+}
+.flower_prise div img{
+    height: 160px;
+    width: 330px;
+    z-index: -1;
+}
+.text3{
+    margin-top: -115px;
+    color: white;
+}
+.text3 h3{
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+.text3 h4{
+    font-size: 1.2rem;
+    margin-top: 2px;
+}
+.text4{
+    margin-top: 80px;
+}
+.text4 h3{
+    display: block;
+    color: inherit;
+    font-family: Lora,sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: .075em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.text4 p{
+    display: block;
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    font-family: "Open Sans",sans-serif;
+    margin-top: 1rem;
+    line-height: 40px;
+    color: #777;
+}
+.text4 button{
+    border: 1px solid black;
+    padding: 1.1rem 2.8rem;
+    margin-top: 5px;
+    background-color: white;
+    text-transform: uppercase;
+    transition: color .3s ease,background-color .3s ease,border-color .3s ease;
+    cursor: pointer;
+}
+.text4 button:hover{
+    background-color: #1b1b1b;
+    color: white;
+}
+#section3{
+    margin-top: 100px;
+}
+#section3 div img{
+    height: 280px;
+    width: 100vw;
+    z-index: -1;
+}
+#review{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-top: -180px;
+}
+.text5{
+    display: inline-block;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+    margin-left: 12vw;
+}
+/* Section 4 */
+#section4{
+    margin-top: 200px;
+}
+#section4 div h2{
+    text-align: center;
+    color: #1b1b1b;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+#section4 div h3{
+    text-align: center;
+    color: #1b1b1b;
+    font-size: 2rem;
+    margin-top: 0.3rem;
+    font-family: Lora,sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+#product{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#product div img{
+    position: relative;
+    height: 320px;
+    width: 265px;
+    margin-top: 60px;
+    z-index: -1;
+    cursor: pointer;
+}
+#product>div>div>img:nth-of-type(1){
+    margin-left: 4vw;
+}
+.content{
+    position: relative;
+    margin-left: 112px;
+    margin-top: -188px;
+    display: none;
+}
+.content button{
+    padding: 15px 25px;
+    background-color: white;
+    border: none;
+    text-transform: uppercase;
+}
+.product1:hover{
+    transform: scale(.90);
+}
+.product1:hover .content{
+    display: block;
+}
+.content button:hover{
+    background-color: #1b1b1b;
+    color: white;
+}
+/* Section 5 */
+#section5{
+    margin-top: 170vh;
+    background-image: url(./Media/h2-background-team.jpg);
+    height: 100vh;
+    max-width: 100%;
+}
+#section5 div h2{
+    text-align: center;
+    color: #1b1b1b;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-top: -150vh;
+    padding-top: 5vh;
+}
+#section5 div h3{
+    text-align: center;
+    color: #1b1b1b;
+    font-size: 2rem;
+    margin-top: 0.3rem;
+    font-family: Lora,sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.team{
+    position: relative;
+    display: inline-block;
+    flex-direction: row;
+}
+.team div img{
+    height: 35vh;
+    width: 18vw;
+    margin-left: 5vw;
+    margin-top: 10vh;
+}
+.text6{
+    text-align: center;
+    margin-top: 5vh;
+    margin-left: 57px;
+}
+.text6 h5{
+    color: #1b1b1b;
+    font-family: Lora,sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.text6 h6{
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 25px;
+}
+.logo i{
+    margin-left: 30px;
+}
+.logo i:hover{
+    color: #777;
+}
+/* Section 6 */
+#section6 div img{
+    height: 40vh;
+    width: 100vw;
+    margin-top: 12vh;
+}
+#section6 h4{
+    text-align: center;
+    color: white;
+    margin-top: -35vh;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+#section6 input{
+    width: 30%;
+    padding: 10px 15px;
+    font-family: inherit;
+    font-size: 22px;
+    color: #777;
+    line-height: 1.3125em;
+    font-weight: inherit;
+    background-color: #fff0e9;
+    cursor: pointer;
+    border: none;
+}
+#section6 button{
+    font-family: inherit;
+    position: relative;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    font-size: 19px;
+    background-color: #1b1b1b;
+    color: white;
+    transition: color .3s ease,background-color .3s ease,border-color .3s ease;
+    cursor: pointer;
+}
+#section6 button:hover{
+    background-color: #2e2e2e;
+}
+#search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+#section7{
+    margin-top: 20vh;
+}
+#section7 div h2{
+    text-align: center;
+    color: #1b1b1b;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    font-weight: 400;
+}
+#section7 div h3{
+    text-align: center;
+    color: #1b1b1b;
+    font-size: 2.5rem;
+    margin-top: 0.3rem;
+    font-family: Lora,sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+#flower{
+    margin-left: 8vw;
+    margin-top: 3vh;
+    position: relative;
+}
+.flower1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.flower1 img{
+    position: relative;
+    display: block;
+    height: auto;
+    width: 25vw;
+    margin-left: 2vw;
+    margin-top: 4vh;
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+.flower1 img:hover{
+    zoom: 103%;
+}
+/* footer */
+.footermain{
+    display: flex;
+    flex-direction: row;
+    background-color: #1b1b1b;
+    height: 400px;
+    margin-top: 80px;
+    width: 100%;
+    color: #777;
+    padding-left: 70px;
+}
+.footercontant{
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+}
+.footerdata{
+    margin-left: 120px;
+}
+.footerlogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: -40px;
+}
+.footerimg{
+    display: flex;
+    flex-direction: row;
+}
+.footerimg img{
+    height: auto;
+    width: 80px;
+    color: #777;
+    margin: 4px;
+}
+.footerdata h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: white!important;
+}
+.footerdata{
+    color: #777;
+    margin-left: 80px;
+}
+.copyright{
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+}
+.copyright h6{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+/* Media Quary for responsive */
+@media (max-width: 400px){
+    #navbar{
+        width: 400px;
+        height: 90px;
+        background-color: white;
+        z-index: 2;
+    }
+    #logo{
+        display: none;
+    }
+    #navbar ul li{
+        display: none;
+    }
+    #navbar i{
+        display: none;
+    }
+    .hamburger{
+        height:25px;
+        align-items: start;
+        margin-top: 20px;
+        margin-right: 90px;
+    }
+    #logo5{
+        position: relative;
+        height: 55px;
+        width: 105px;
+        margin-top: 21px;
+        margin-right: 190px;
+    }
+    .line1{
+        width:20px;
+        border: 1px solid #1b1b1b;
+    }
+    .line2{
+        width:20px;
+        border: 1px solid #1b1b1b;
+    }
+    .line3{
+        width:20px;
+        border: 1px solid #1b1b1b;
+    }
+    .hamburger:hover #navbar ul li{
+        display: block;
+    }
+    .headertext h1{
+        font-size: 2rem;
+        margin-top: 45px;
+    }
+    .headertext h2{
+        font-size: 2rem;
+    }
+    /* Section 1 */
+    #section1{
+        height: 850px;
+    }
+    #background1{
+        margin-left: 65px;
+        padding-top: 85px;
+        z-index: -1;
+    }
+    #text1{
+        margin-top: -350px;
+        margin-left: 30px;
+        letter-spacing: 0.1rem;
+    }
+    #text1 p{
+        font-size: 13px;
+    }
+    #text1 button{
+        padding: 0.8rem 1rem;
+        margin-top: 8px;
+    }
+    #img1{
+        display: block;
+        margin-top: 90px;
+        margin-right: 40px;
+    }
+    #img1 img{
+        height: 200px;
+        width: 100%;
+    }
+    /* Section 2 */
+    #text2 h1{
+        font-size: 3rem;
+    }
+    #text2 h2{
+        font-size: 2rem;
+    }
+    .flower_prise{
+        display: block;
+        flex-direction: column;
+        margin-top: 60px;
+        margin-left: 50px;
+        height: 500px;
+        width: 300px;
+        border: 1px solid #777;
+        border-top: none;
+    }
+    .flower_prise div img{
+        height: 28vh;
+        width: 100%;
+    }
+    .text3{
+        margin-top: -21vh;
+    }
+    .text4 h3{
+        font-size: 1.3rem;
+    }
+    .text4 p{
+        font-size: 1rem;
+        color: #777;
+    }
+    /* Section 3 */
+    #section3{
+        margin-top: 120px;
+    }
+    #section3 div img{
+        height: 500px;
+        width: 100%;
+        z-index: -1;
+    }
+    #review{
+        margin-top: -500px;
+    }
+    .text5{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: -5px;
+        margin-top: 50px;
+    }
+    /* Section 4 */
+    #section4 div h2{
+        font-size: 3rem;
+    }
+    #section4 div h3{
+        font-size: 2rem;
+    }
+    #product{
+        position: relative;
+        display: block;
+        flex-direction: column;
+    }
+    #product div img{
+        height: 250px;
+        width: 300px;
+        padding-left: 75px;
+    }
+    .content{
+        position: relative;
+        margin-top: -148px;
+        margin-left: 127px;
+    }
+    .product1{
+        margin-top: 50px;
+    }
+    /* section 5 */
+    #section5{
+        background-image: none;
+        background-color: #FFF0E9;
+        height: 2280px;
+        max-width: 100%;
+    }
+    #section5 div h2{
+        font-size: 3rem;
+        font-weight: 400;
+        margin-top: -150vh;
+        padding-top: 20vh;
+    }
+    .team{
+        position: relative;
+        display: block;
+        flex-direction: column;
+    }
+    .team div img{
+        height: 300px;
+        width: 250px;
+        margin-left: 19vw;
+        margin-top: 10vh;
+    }
+    .text6{
+        margin-left: 8px;
+    }
+    .logo{
+        margin-left: -15px;
+    }
+    /* Section 6  */
+    #section6 div img{
+        height: 400px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    #section6 h4{
+        margin-top: -58vh;
+        font-size: 2.4rem;
+        flex: wrap;
+    }
+    #section6 input{
+        width: 75%;
+        font-size: 20px;
+        margin-left: 65px;
+    }
+    #section6 button{
+        position: relative;
+        padding: 12px 22px 12px 23px;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    #search{
+        display: block;
+        flex-direction: column;
+        flex: wrap;
+    }
+    /* Section 7 */
+    #section7{
+        margin-top: 30vh;
+    }
+    #section7 div h2{
+        font-size: 2.5rem;
+    }
+    #section7 div h3{
+        font-size: 2rem;
+    }
+    #flower{
+        margin-left: 8vw;
+        margin-top: 3vh;
+    }
+    .flower1{
+        display: block;
+        flex-direction: column;
+    }
+    .flower1 img{
+        height: 270px;
+        width: 300px;
+        margin-left: 20px;
+    }
+    /* Footer */
+    .footermain{
+        display: block;
+        flex-direction: column;
+        background-color: #1b1b1b;
+        height: 1100px;
+        margin-top: 80px;
+        width: 100%;
+        color: #777;
+    }
+    .footercontant{
+        display: block;
+        flex-direction: column;
+        padding-top: 60px;
+        margin-top: -40px;
+    }
+    .footerdata{
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+    .footerlogo{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-left: -60px;
+    }
+    .footerimg{
+        display: flex;
+        flex-direction: row;
+    }
+    .footerdata{
+        color: #777;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 680px){
+    #navbar{
+        width: 700px;
+        height: 90px;
+        background-color: white;
+    }
+    #logo{
+        display: none;
+    }
+    #navbar ul li{
+        display: none;
+    }
+    #navbar i{
+        display: none;
+    }
+    .hamburger{
+        height:25px;
+        align-items: start;
+        margin-top: 20px;
+        margin-right: 210px;
+    }
+    #logo5{
+        position: relative;
+        height: 55px;
+        width: 105px;
+        margin-top: 21px;
+        margin-right: 295px;
+    }
+    .line1{
+        width:20px;
+        border: 1px solid #1b1b1b;
+    }
+    .line2{
+        width:20px;
+        border: 1px solid #1b1b1b;
+    }
+    .line3{
+        width:20px;
+        border: 1px solid #1b1b1b;
+    }
+    .hamburger:hover #navbar ul li{
+        display: block;
+    }
+    .headertext h1{
+        font-size: 3rem;
+    }
+    .headertext h2{
+        font-size: 3rem;
+    }
+    /* Section 1 */
+    #section1{
+        height: 980px;
+        margin-top: -32px;
+    }
+    #text1 button{
+        padding: 1rem 1.5rem;
+    }
+    #img1{
+        display: block;
+        margin-top: 90px;
+        margin-right: 85px;
+    }
+    .flower_prise{
+        margin-left: 130px;
+        height: 450px;
+        width: 400px;
+    }
+    .flower_prise div img{
+        height: 28vh;
+        width: 100%;
+    }
+    .text3{
+        margin-top: -21vh;
+    }
+    /* Section 2 */
+    .flower_prise{
+        height: 510px;
+    }
+    /* section 3 */
+    #section3 div img{
+        height: 500px;
+        width: 100%;
+        z-index: -1;
+    }
+    #review{
+        margin-top: -500px;
+    }
+    .text5{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: -5px;
+        margin-top: 50px;
+    }
+    /* Section 4 */
+    #product{
+        position: relative;
+        display: block;
+        flex-direction: column;
+    }
+    #product div img{
+        height: 350px;
+        width: 500px;
+        padding-left: 160px;
+    }
+    .content{
+        position: relative;
+        margin-top: -190px;
+        margin-left: 286px;
+    }
+    .product1{
+        margin-top: 60px;
+    }
+    /* section 5 */
+    #section5{
+        background-image: none;
+        background-color: #FFF0E9;
+        height: 2400px;
+        max-width: 100%;
+    }
+    #section5 div h2{
+        margin-top: -150vh;
+        padding-top: 20vh;
+    }
+    .team{
+        position: relative;
+        display: block;
+        flex-direction: column;
+    }
+    .team div img{
+        height: 350px;
+        width: 400px;
+        margin-left: 20vw;
+        margin-top: 10vh;
+    }
+    .text6{
+        margin-left: -12px;
+    }
+    .logo{
+        margin-left: -44px;
+    }
+    /* Section 6  */
+    #section6 div img{
+        height: 400px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    #section6 h4{
+        margin-top: -60vh;
+        font-size: 2.4rem;
+        flex: wrap;
+    }
+    #section6 input{
+        width: 75%;
+        font-size: 20px;
+        margin-left: 65px;
+    }
+    #section6 button{
+        position: relative;
+        padding: 12px 22px 12px 23px;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    #search{
+        display: block;
+        flex-direction: column;
+        flex: wrap;
+    }
+    /* Section 7 */
+    #section7{
+        margin-top: 30vh;
+    }
+    #section7 div h2{
+        font-size: 2.5rem;
+    }
+    #section7 div h3{
+        font-size: 2rem;
+    }
+    #flower{
+        margin-left: 9vw;
+        margin-top: 3vh;
+    }
+    .flower1{
+        display: block;
+        flex-direction: column;
+    }
+    .flower1 img{
+        height: 300px;
+        width: 450px;
+        margin-left: 52px;
+    }
+    /* Footer */
+    .footermain{
+        display: block;
+        flex-direction: column;
+        background-color: #1b1b1b;
+        height: 1600px;
+        margin-top: 80px;
+        padding-left: 130px;
+        width: 100%;
+    }
+    .footercontant{
+        display: block;
+        flex-direction: column;
+        padding-top: 60px;
+        margin-top: -40px;
+    }
+    .footerdata{
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+    .footerlogo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        margin-left: -80px;
+    }
+    .footerimage{
+        display: flex;
+        flex-direction: row;
+    }
+    .footerimg{
+        display: block;
+        flex-direction: column;
+    }
+    .footerimage img{
+        width: 200px;
+    }
+    .footerdata{
+        color: #777;
+    }
+}
+
+@media (min-width: 680px) and (max-width: 768px){
+    #navbar{
+        width: 770px;
+        height: 90px;
+        background-color: white;
+    }
+    #logo{
+        display: none;
+    }
+    #navbar ul li{
+        display: none;
+    }
+    #navbar i{
+        display: none;
+    }
+    .hamburger{
+        height:25px;
+        align-items: start;
+        margin-top: 20px;
+        margin-right: 240px;
+    }
+    #logo5{
+        position: relative;
+        height: 55px;
+        width: 105px;
+        margin-top: 21px;
+        margin-right: 365px;
+    }
+    .line1{
+        width:20px;
+        border: 1px solid #1b1b1b;
+    }
+    .line2{
+        width:20px;
+        border: 1px solid #1b1b1b;
+    }
+    .line3{
+        width:20px;
+        border: 1px solid #1b1b1b;
+    }
+    .hamburger:hover #navbar ul li{
+        display: block;
+    }
+    .headertext h1{
+        font-size: 3rem;
+    }
+    .headertext h2{
+        font-size: 3rem;
+    }
+    /* Section 1 */
+    #section1{
+        height: 1010px;
+        margin-top: -32px;
+    }
+    #text1 button{
+        padding: 1rem 1.5rem;
+    }
+    #img1{
+        display: block;
+        margin-top: 90px;
+        margin-right: 85px;
+    }
+    #img1 img{
+        width: 570px;
+    }
+    .flower_prise{
+        margin-left: 175px;
+        height: 530px;
+        width: 400px;
+    }
+    .flower_prise div img{
+        height: 28vh;
+        width: 100%;
+    }
+    .text3{
+        margin-top: -21vh;
+    }
+    /* Section 2 */
+    .flower_prise{
+        height: 510px;
+    }
+    /* section 3 */
+    #section3 div img{
+        height: 500px;
+        width: 100%;
+        z-index: -1;
+    }
+    #review{
+        margin-top: -500px;
+    }
+    .text5{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: -5px;
+        margin-top: 50px;
+    }
+    /* Section 4 */
+    #product{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #product div img{
+        width: 300px;
+        height: 320px;
+        padding-left: 50px;
+    }
+    .content{
+        position: relative;
+        margin-top: -180px;
+        margin-left: 131px;
+    }
+    .product1{
+        margin-top: 40px;
+    }
+    /* section 5 */
+    #section5{
+        background-image: none;
+        background-color: #FFF0E9;
+        height: 2880px;
+        max-width: 100%;
+    }
+    #section5 div h2{
+        margin-top: -150vh;
+        padding-top: 20vh;
+    }
+    .team{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .team div img{
+        height: 450px;
+        width: 550px;
+        margin-left: 100px;
+        margin-top: 10vh;
+    }
+    .text6{
+        margin-left: -36px;
+    }
+    .logo{
+        margin-left: -60px;
+    }
+    /* Section 6  */
+    #section6 div img{
+        height: 290px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    #section6 h4{
+        margin-top: -39vh;
+        font-size: 2rem;
+        flex: wrap;
+    }
+    #section6 input{
+        width: 60%;
+        font-size: 20px;
+        margin-left: 65px;
+    }
+    #section6 button{
+        position: relative;
+        padding: 10px 20px 10px 20px;
+        margin-top: 30px;
+        margin-left: -4px;
+    }
+    #search{
+        display: block;
+        flex-direction: column;
+        flex: wrap;
+        margin-top: -25px;
+    }
+    /* Section 7 */
+    #section7{
+        margin-top: 30vh;
+    }
+    #section7 div h2{
+        font-size: 2.5rem;
+    }
+    #section7 div h3{
+        font-size: 2rem;
+    }
+    #flower{
+        margin-left: 8vw;
+        margin-top: 3vh;
+    }
+    .flower1{
+        display: block;
+        flex-direction: column;
+    }
+    .flower1 img{
+        height: 400px;
+        width: 550px;
+        margin-left: 52px;
+    }
+    /* Footer */
+    .footermain{
+        display: flex;
+        flex-direction: row;
+        background-color: #1b1b1b;
+        height: 700px;
+        margin-top: 80px;
+        width: 100%;
+        color: #777;
+        justify-content: space-evenly;
+    }
+    .footercontant{
+        display: block;
+        flex-direction: column;
+        padding-top: 60px;
+        margin-top: -40px;
+    }
+    .footerdata{
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+    .footerlogo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        margin-left: -30px;
+    }
+    .footerimage{
+        display: block;
+        flex-direction: column;
+    }
+    .footerimg{
+        display: flex;
+        flex-direction: row;
+    }
+    .footerimage img{
+        width: 90px;
+    }
+    .footerdata{
+        color: #777;
+    }
+    .ftlogo{
+        margin-top: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    #navbar{
+        width: 1050px;
+        height: 100px;
+        background-color: white;
+    }
+    #logo{
+        display: none;
+    }
+    #navbar ul li{
+        display: none;
+    }
+    #navbar i{
+        display: none;
+    }
+    .hamburger{
+        height:25px;
+        align-items: start;
+        margin-top: 20px;
+        margin-right: 370px;
+    }
+    #logo5{
+        position: relative;
+        height: 55px;
+        width: 105px;
+        margin-top: 21px;
+        margin-right: 440px;
+    }
+    .line1{
+        width:20px;
+        border: 1px solid #1b1b1b;
+    }
+    .line2{
+        width:20px;
+        border: 1px solid #1b1b1b;
+    }
+    .line3{
+        width:20px;
+        border: 1px solid #1b1b1b;
+    }
+    .hamburger:hover #navbar ul li{
+        display: block;
+    }
+    .headertext h1{
+        font-size: 3rem;
+    }
+    .headertext h2{
+        font-size: 3rem;
+    }
+    /* Section 1 */
+    #section1{
+        height: 1180px;
+        margin-top: -32px;
+    }
+    #text1 button{
+        padding: 1.3rem 2rem;
+    }
+    #img1{
+        display: block;
+        margin-top: 90px;
+        margin-right: 15vw;
+    }
+    #img1 img{
+        width: 700px;
+        height: 500px;
+    }
+    .flower_prise{
+        margin-left: 285px;
+        height: 450px;
+        width: 400px;
+    }
+    .flower_prise div img{
+        height: 28vh;
+        width: 100%;
+    }
+    .text3{
+        margin-top: -21vh;
+    }
+    /* Sectiion 2 */
+    .flower_prise{
+        height: 560px;
+        width: 430px;
+    }
+    .text3{
+        margin-top: -135px;
+    }
+    /* section 3 */
+    #section3 div img{
+        height: 500px;
+        width: 100%;
+        z-index: -1;
+    }
+    #review{
+        margin-top: -500px;
+    }
+    .text5{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: -5px;
+        margin-top: 50px;
+    }
+    /* Section 4 */
+    #product{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #product div img{
+        padding-left: 21px;
+        width: 435px;
+        height: 440px;
+        margin-top: 115px;
+    }
+    .content{
+        position: relative;
+        margin-left: 195px;
+        margin-top: -236px;
+    }
+    /* section 5 */
+    #section5{
+        background-image: none;
+        background-color: #FFF0E9;
+        height: 1400px;
+        max-width: 100%;
+    }
+    #section5 div h2{
+        margin-top: -150vh;
+        padding-top: 20vh;
+    }
+    .team{
+        position: relative;
+        display: inline-block;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .team div img{
+        height: 320px;
+        width: 350px;
+        margin-left: 100px;
+        margin-top: 10vh;
+    }
+    .text6{
+        margin-left: 80px;
+    }
+    .logo{
+        margin-left: 50px;
+    }
+    /* Section 6  */
+    #section6 div img{
+        height: 300px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    #section6 h4{
+        margin-top: -31vh;
+        font-size: 2rem;
+        flex: wrap;
+    }
+    #section6 input{
+        width: 60%;
+        font-size: 20px;
+        margin-left: 120px;
+    }
+    #section6 button{
+        position: relative;
+        padding: 10px 20px 10px 20px;
+        margin-top: 0px;
+        margin-left: -4px;
+    }
+    #search{
+        display: block;
+        flex-direction: column;
+        flex: wrap;
+    }
+    /* Section 7 */
+    #section7{
+        margin-top: 30vh;
+    }
+    #section7 div h2{
+        font-size: 2.5rem;
+    }
+    #section7 div h3{
+        font-size: 2rem;
+    }
+    #flower{
+        margin-left: 5vw;
+        margin-top: 3vh;
+    }
+    .flower1{
+        display: flex;
+        flex-direction: row;
+    }
+    .flower1 img{
+        height: 250px;
+        width: 280px;
+        margin-left: 20px;
+    }
+    /* Footer */
+    .footermain{
+        display: flex;
+        flex-direction: row;
+        background-color: #1b1b1b;
+        height: 700px;
+        margin-top: 80px;
+        width: 100%;
+        color: #777;
+        justify-content: space-evenly;
+    }
+    .footercontant{
+        display: block;
+        flex-direction: column;
+        padding-top: 60px;
+        margin-top: -40px;
+    }
+    .footerdata{
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+    .footerlogo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        margin-left: -40px;
+    }
+    .footerimage{
+        display: block;
+        flex-direction: column;
+    }
+    .footerimg{
+        display: flex;
+        flex-direction: row;
+    }
+    .footerimage img{
+        width: 110px;
+    }
+    .footerdata{
+        color: #777;
+    }
+    .ftlogo{
+        margin-top: 60px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px){
+
+    #logo{
+        position: relative;
+        margin-top: -1250px;
+        margin-left: 20px;
+        height: 4.5rem;
+    }
+    #logo5{
+        display: none;
+    }
+    #navbar{
+        margin-left: 25vw;
+    }
+    .submenu2{
+        left: -98vh;
+    }
+    /* Section 1 */
+    #section1{
+        height: 1470px;
+        margin-top: -32px;
+    }
+    #text1 button{
+        padding: 1.5rem 2rem;
+    }
+    #img1{
+        display: block;
+        margin-top: 90px;
+        margin-right: 12vw;
+    }
+    #img1 img{
+        width: 900px;
+        height: 600px;
+    }
+    #text1 h1{
+        font-size: 5rem;
+    }
+    #text1 h2{
+        font-size: 4rem;
+    }
+    #text1 p{
+        font-size: 1.5rem;
+        line-height: 2.3rem;
+    }
+    #text1 button{
+        font-size: 25px;
+    }
+    /* Section 2 */
+    .flower_prise{
+        margin-left: 60px;
+        height: 550px;
+        width: 310px;
+        display: inline-block;
+        flex-direction: row;
+    }
+    .flower_prise div img{
+        height: 20vh;
+        width: 100%;
+    }
+    .text3{
+        margin-top: -15vh;
+    }
+    /* section 3 */
+    #section3 div img{
+        height: 300px;
+        width: 100%;
+        z-index: -1;
+    }
+    #review{
+        margin-top: -240px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+    }
+    .text5{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: -36px;
+        margin-top: 50px;
+    }
+    .text5 h4{
+        font-size: 35px;
+        margin-left: 139px;
+    }
+    .text5 h5{
+        font-size: 25px;
+        margin-left: 150px;
+    }
+    /* Section 4 */
+    #product{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+    #product div img{
+        padding-left: 5px;
+        width: 235px;
+        height: 280px;
+    }
+    .overlay{
+        display: none;
+    }
+    /* section 5 */
+    #section5{
+        background-color: #FFF0E9;
+        height: 1750px;
+        max-width: 100%;
+    }
+    #section5 div h2{
+        margin-top: -150vh;
+        padding-top: 20vh;
+    }
+    .team{
+        position: relative;
+        display: inline-block;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .team div img{
+        height: 435px;
+        width: 426px;
+        margin-left: 110px;
+        margin-top: 10vh;
+    }
+    .content{
+        position: relative;
+        margin-left: 95px;
+        margin-top: -162px;
+    }
+    .text6{
+        margin-left: 100px;
+    }
+    .logo{
+        margin-left: 72px;
+    }
+    /* Section 6  */
+    #section6 div img{
+        height: 300px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    #section6 h4{
+        margin-top: -36vh;
+        font-size: 2rem;
+        flex: wrap;
+    }
+    #section6 input{
+        width: 60%;
+        font-size: 20px;
+        margin-left: 120px;
+        padding: 12px 23px 12px 23px;
+    }
+    #section6 button{
+        position: relative;
+        padding: 12px 23px 12px 23px;
+        margin-top: 0px;
+        margin-left: -4px;
+    }
+    #search{
+        display: block;
+        flex-direction: column;
+        flex: wrap;
+    }
+    /* Section 7 */
+    #section7{
+        margin-top: 30vh;
+    }
+    #section7 div h2{
+        font-size: 3rem;
+    }
+    #section7 div h3{
+        font-size: 3rem;
+    }
+    #flower{
+        margin-left: 5vw;
+        margin-top: 3vh;
+    }
+    .flower1{
+        display: flex;
+        flex-direction: row;
+    }
+    .flower1 img{
+        height: 300px;
+        width: 310px;
+        margin-left: 40px;
+    }
+    /* Footer*/
+    .footerdata{
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 1199px) and (max-width:1500px){
+    #logo{
+        position: relative;
+        margin-top: -1250px;
+        margin-left: 20px;
+        height: 4.5rem;
+    }
+    #logo5{
+        display: none;
+    }
+    #navbar{
+        margin-left: 25vw;
+    }
+    .submenu2{
+        left: -144vh;
+    }
+    /* Section 1 */
+    #section1{
+        height: 650px;
+    }
+    #text1 h1{
+        font-size: 4rem;
+        font-weight: 500;
+    }
+    #text1 h2{
+        font-size: 3rem;
+    }
+    #text1 p{
+        font-size: 18px;
+        line-height: 40px;
+    }
+    #text1 button{
+        padding: 1.5rem 2rem;
+        margin-top: 4vh;
+    }
+    #img1{
+        float: right;
+        margin-top: -52vh;
+        margin-right: 2vw;
+    }
+    #img1 img{
+        height: 316px;
+        width: auto;
+    }
+    /* Section 2 */
+    .flower_prise{
+        margin-left: 75px;
+        height: 550px;
+        width: 350px;
+        display: inline-block;
+        flex-direction: row;
+    }
+    .flower_prise div img{
+        height: 20vh;
+        width: 100%;
+    }
+    #text2 h1{
+        font-size: 5rem;
+    }
+    #text2 h2{
+        font-size: 4rem;
+    }
+    .text3{
+        margin-top: -15vh;
+    }
+    /* section 3 */
+    #section3 div img{
+        height: 300px;
+        width: 100%;
+        z-index: -1;
+    }
+    #review{
+        margin-top: -240px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+    }
+    .text5{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: -10px;
+        margin-top: 50px;
+    }
+    .text5 h4{
+        font-size: 35px;
+        margin-left: 139px;
+    }
+    .text5 h5{
+        font-size: 25px;
+        margin-left: 150px;
+    }
+    /* Section 4 */
+    #product{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+    #product div img{
+        padding-left: 5px;
+        width: 274px;
+        height: 350px;
+    }
+    #section4 h2{
+        font-size: 4rem;
+    }
+    #section4 h3{
+        font-size: 6rem;
+        font-weight: 600;
+    }
+    /* section 5 */
+    #section5{
+        height: 800px;
+    }
+    .team{
+        position: relative;
+        display: inline-block;
+        flex-direction: row;
+    }
+    .team div img{
+        height: 40vh;
+        width: 22vw;
+        margin-left: 2vw;
+        margin-top: 10vh;
+    }
+    .text6{
+        text-align: center;
+        margin-top: 5vh;
+        margin-left: 12px;
+    }
+    .logo{
+        margin-left: -21px;
+    }
+    /* Section 6  */
+    #section6 div img{
+        height: 300px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    #section6 h4{
+        margin-top: -35vh;
+        font-size: 2rem;
+        flex: wrap;
+    }
+    #section6 input{
+        width: 60%;
+        font-size: 25px;
+        margin-left: 165px;
+        padding: 12px 23px 12px 23px;
+    }
+    #section6 button{
+        position: relative;
+        padding: 12px 23px 12px 23px;
+        margin-top: 0px;
+        margin-left: -4px;
+        font-size: 25px;
+    }
+    #search{
+        display: block;
+        flex-direction: column;
+        flex: wrap;
+    }
+    /* Section 7 */
+    #section7{
+        margin-top: 30vh;
+    }
+    #section7 div h2{
+        font-size: 4rem;
+    }
+    #section7 div h3{
+        font-size: 4rem;
+    }
+    #flower{
+        margin-left: 5vw;
+        margin-top: 3vh;
+    }
+    .flower1{
+        display: flex;
+        flex-direction: row;
+    }
+    .flower1 img{
+        height: 400px;
+        width: 360px;
+        margin-left: 40px;
+    }
+    /* Footer*/
+    .footerdata{
+        margin-left: 55px;
+    }
+}
