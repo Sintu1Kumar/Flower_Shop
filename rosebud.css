@@ -45,7 +45,7 @@
 .headertext button{
     border: 1px solid white;
     padding: 1rem 2rem;
-    margin-top: 5vh;
+    margin-top: 18px;
     background-color: #121615;
     color: white;
     text-transform: uppercase;
@@ -65,7 +65,7 @@
     font-weight: 400;
     font-size: 18px;
     margin-left: 3vw;
-    margin-top: 2vh;
+    margin-top: 22px;
 }
 #navbar>ul>li>a{
     color: white;
@@ -81,6 +81,10 @@
     display: none;
     padding-left: 0%;
 }
+.submenu li a{
+    text-decoration: none;
+    color: black;
+}
 .submenu1{
     position: absolute;
     background-color: white;
@@ -89,6 +93,10 @@
     top: 20px;
     padding-left: 0%;
     display: none;
+}
+.submenu1>li a{
+    text-decoration: none;
+    color: black;
 }
 .submenu2{
     width: 80vw;
@@ -131,8 +139,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin-right: 3vw;
-    margin-top: 1vh;
+    margin: 40px 30px;
 }
 .line1{
     width:20px;
@@ -150,7 +157,7 @@
 #section1{
     margin-top: -22px;
     background-color: #FFF0E9;
-    height: 90vh;
+    height: 180px;
 }
 #background1{
     margin-left: 29vw;
@@ -186,13 +193,14 @@
     font-size: 15px;
     line-height: 26px;
     font-weight: 400;
+    width: 45%;
     text-align: justify;
     text-justify: inter-word;
 }
 #text1 button{
     border: 1px solid black;
     padding: 1.3rem 1.8rem;
-    margin-top: 5vh;
+    margin-top: 12px;
     background-color: #FFF0E9;
     transition: color .3s ease,background-color .3s ease,border-color .3s ease;
     cursor: pointer;
@@ -292,6 +300,7 @@
     background-color: #1b1b1b;
     color: white;
 }
+/* Section 3 */
 #section3{
     margin-top: 100px;
 }
@@ -361,9 +370,6 @@
     border: none;
     text-transform: uppercase;
 }
-.product1:hover{
-    transform: scale(.90);
-}
 .product1:hover .content{
     display: block;
 }
@@ -371,6 +377,18 @@
     background-color: #1b1b1b;
     color: white;
 }
+/* .tag>button::after{
+    content: "Sale";
+    font-size: 35px;
+    height: 55px;
+    width: 88px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    margin-left: -23px;
+    margin-top: -162px;
+    padding: 0px 14px;
+} */
 /* Section 5 */
 #section5{
     margin-top: 170vh;
@@ -453,21 +471,18 @@
 #section6 input{
     width: 30%;
     padding: 10px 15px;
-    font-family: inherit;
     font-size: 22px;
     color: #777;
     line-height: 1.3125em;
-    font-weight: inherit;
     background-color: #fff0e9;
     cursor: pointer;
     border: none;
 }
 #section6 button{
-    font-family: inherit;
     position: relative;
     padding: 15px 25px 15px 25px;
     border: none;
-    font-size: 19px;
+    font-size: 18px;
     background-color: #1b1b1b;
     color: white;
     transition: color .3s ease,background-color .3s ease,border-color .3s ease;
@@ -482,6 +497,7 @@
     justify-content: center;
     margin-top: 20px;
 }
+/* Section 7 */
 #section7{
     margin-top: 20vh;
 }
@@ -518,11 +534,11 @@
     width: 25vw;
     margin-left: 2vw;
     margin-top: 4vh;
-    transition: transform .3s ease;
+    transition: transform .7s ease;
     cursor: pointer;
 }
 .flower1 img:hover{
-    zoom: 103%;
+    zoom: 101%;
 }
 /* footer */
 .footermain{
@@ -579,13 +595,14 @@
     text-align: center;
     padding-top: 15px;
 }
+
 /* Media Quary for responsive */
 @media (max-width: 400px){
     #navbar{
         width: 400px;
         height: 90px;
         background-color: white;
-        z-index: 2;
+        z-index: 1;
     }
     #logo{
         display: none;
@@ -598,16 +615,18 @@
     }
     .hamburger{
         height:25px;
+        display: flex;
         align-items: start;
-        margin-top: 20px;
-        margin-right: 90px;
+        margin-top: 65px;
+        margin-left: -70vw;
     }
     #logo5{
         position: relative;
         height: 55px;
         width: 105px;
         margin-top: 21px;
-        margin-right: 190px;
+        align-items: center;
+        justify-items: center;
     }
     .line1{
         width:20px;
@@ -621,9 +640,9 @@
         width:20px;
         border: 1px solid #1b1b1b;
     }
-    .hamburger:hover #navbar ul li{
-        display: block;
-    }
+    /* .hamburger:hover .navbar1{
+        display: inline-block;
+    } */
     .headertext h1{
         font-size: 2rem;
         margin-top: 45px;
@@ -647,6 +666,7 @@
     }
     #text1 p{
         font-size: 13px;
+        width: 90%;
     }
     #text1 button{
         padding: 0.8rem 1rem;
@@ -654,8 +674,8 @@
     }
     #img1{
         display: block;
-        margin-top: 90px;
-        margin-right: 40px;
+        margin-top: 70px;
+        margin-left: 5vw;
     }
     #img1 img{
         height: 200px;
@@ -672,18 +692,18 @@
         display: block;
         flex-direction: column;
         margin-top: 60px;
-        margin-left: 50px;
+        margin-left: 7vw;
         height: 500px;
         width: 300px;
         border: 1px solid #777;
         border-top: none;
     }
     .flower_prise div img{
-        height: 28vh;
+        height: 150px;
         width: 100%;
     }
     .text3{
-        margin-top: -21vh;
+        margin-top: -115px;
     }
     .text4 h3{
         font-size: 1.3rem;
@@ -722,16 +742,16 @@
         position: relative;
         display: block;
         flex-direction: column;
+        margin-left: 7vw;
     }
     #product div img{
         height: 250px;
         width: 300px;
-        padding-left: 75px;
     }
     .content{
         position: relative;
         margin-top: -148px;
-        margin-left: 127px;
+        margin-left: 25vw;
     }
     .product1{
         margin-top: 50px;
@@ -746,8 +766,8 @@
     #section5 div h2{
         font-size: 3rem;
         font-weight: 400;
-        margin-top: -150vh;
-        padding-top: 20vh;
+        margin-top: -850px;
+        padding-top: 80px;
     }
     .team{
         position: relative;
@@ -757,14 +777,14 @@
     .team div img{
         height: 300px;
         width: 250px;
-        margin-left: 19vw;
+        margin-left: 15vw;
         margin-top: 10vh;
     }
     .text6{
-        margin-left: 8px;
+        margin-left: -18px;
     }
     .logo{
-        margin-left: -15px;
+        margin-left: -40px;
     }
     /* Section 6  */
     #section6 div img{
@@ -773,7 +793,7 @@
         margin-top: 0px;
     }
     #section6 h4{
-        margin-top: -58vh;
+        margin-top: -350px;
         font-size: 2.4rem;
         flex: wrap;
     }
@@ -795,7 +815,7 @@
     }
     /* Section 7 */
     #section7{
-        margin-top: 30vh;
+        margin-top: 150px;
     }
     #section7 div h2{
         font-size: 2.5rem;
@@ -1588,8 +1608,12 @@
     #navbar{
         margin-left: 25vw;
     }
+    .submenu4{
+        left: 0%;
+        right: 100%;
+    }
     .submenu2{
-        left: -98vh;
+        left: -110vh;
     }
     /* Section 1 */
     #section1{
@@ -1781,7 +1805,7 @@
         margin-left: 25vw;
     }
     .submenu2{
-        left: -144vh;
+        left: -150vh;
     }
     /* Section 1 */
     #section1{
@@ -1916,10 +1940,11 @@
         font-size: 25px;
         margin-left: 165px;
         padding: 12px 23px 12px 23px;
+        
     }
     #section6 button{
         position: relative;
-        padding: 12px 23px 12px 23px;
+        padding: 11px 23px 11px 23px;
         margin-top: 0px;
         margin-left: -4px;
         font-size: 25px;
