@@ -1,0 +1,618 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#logo5{
+    display: none;
+}
+#navbar{
+    display: flex;
+    float: right;
+    align-items: center;
+    list-style: none;
+    height: auto;
+    right: 0px;
+    top: -20px;
+    position: absolute;
+    justify-content: space-evenly;
+    padding: 5px;
+    color: black;
+}
+#logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 4rem;
+}
+.headertext{
+    position: absolute;
+    left: 12%;
+    top: 26%;
+}
+.headertext h1{
+    display: block;
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    font-weight: 400;
+}
+.headertext h2{
+    display: block;
+    color: white;
+    font-size: 4rem;
+    margin-top: 0.3rem;
+    font-family: Lora,sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.headertext button{
+    border: 1px solid white;
+    padding: 1rem 2rem;
+    margin-top: 18px;
+    background-color: #121615;
+    color: white;
+    text-transform: uppercase;
+}
+.headertext button:hover{
+    background-color: white;
+    color: black;
+}
+
+#navbar li{
+    position: relative;
+}
+#navbar ul li{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 3vw;
+    margin-top: 22px;
+}
+#navbar>ul>li>a{
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+.submenu{
+    position: absolute;
+    background-color: white;
+    width: 210px;
+    display: none;
+    padding-left: 0%;
+}
+.submenu li a{
+    text-decoration: none;
+    color: black;
+}
+.submenu1{
+    position: absolute;
+    background-color: white;
+    left: 100%;
+    width: 200px;
+    top: 20px;
+    padding-left: 0%;
+    display: none;
+}
+.submenu1>li a{
+    text-decoration: none;
+    color: black;
+}
+.submenu2{
+    width: 900px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    position: absolute;
+    right: 100%;
+    color: black;
+    font-weight: 700;
+}
+.submenu2 header{
+    text-transform: uppercase;
+}
+.col{
+    padding: 8px;
+    border-left: 1px solid black;
+    background-color: white;
+}
+.submenu3 li a{
+    display: block;
+    justify-content: space-around;
+    margin-left: -82px;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+#navbar li:hover > .submenu{
+    display: block;
+    transition: all 0.7s;
+}
+.submenu li:hover > .submenu1{
+    display: block;
+    transition: all 0.7s;   
+}
+.hamburger{
+    height:35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 30px;
+}
+.line1{
+    width:20px;
+    border: 1px solid white;
+}
+.line2{
+    width:20px;
+    border: 1px solid white;
+}
+.line3{
+    width:20px;
+    border: 1px solid white;
+}
+/* Section 1 */
+#section1{
+    position: relative;
+    background-color: #FFF0E9;
+    height: auto;
+}
+#background1{
+    margin-left: 29vw;
+    padding-top: 60px;
+    z-index: -1;
+}
+#text1{
+    position: relative;
+    margin-top: -280px;
+    margin-left: 7rem;
+    letter-spacing: 0.1rem;
+}
+#text1 h1{
+    display: block;
+    color: #1b1b1b;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    font-weight: 400;
+}
+#text1 h2{
+    display: block;
+    color: #1b1b1b;
+    font-size: 2rem;
+    margin-top: 0.3rem;
+    font-family: Lora,sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#text1 p{
+    display: block;
+    color: #1b1b1b;
+    margin-top: 0.5rem;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    width: 45%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#text1 button{
+    border: 1px solid black;
+    padding: 1.3rem 1.8rem;
+    margin-top: 12px;
+    background-color: #FFF0E9;
+    transition: color .3s ease,background-color .3s ease,border-color .3s ease;
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+#text1 button:hover{
+    background-color: #1b1b1b;
+    color: white;
+}
+#img1{
+    position: relative;
+    float: right;
+    margin-top: -30%;
+    margin-right: 5%;
+}
+#img1 img{
+    height: 300px;
+    width: auto;
+}
+/* Section 2 */
+#section2{
+    position: relative;
+}
+#text2{
+    text-align: center;
+    margin-top: 40px;
+}
+#text2 h1{
+    color: #1b1b1b;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+#text2 h2{
+    color: #1b1b1b;
+    font-size: 2.5rem;
+    margin-top: 0.3rem;
+    font-family: Lora,sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.flower_prise{
+    display: inline-block;
+    flex-direction: row;
+    justify-items: center;
+    margin-top: 10px;
+    margin-left: 6%;
+    height: auto;
+    width: 25%;
+    border: 1px solid #777;
+    justify-content: center;
+    text-align: center;
+}
+.flower_prise div img{
+    height: 10%;
+    width: 100%;
+    z-index: -1;
+}
+.text3{
+    position: absolute;
+    margin-top: -9%;
+    color: white;
+    margin-left: 9%;
+}
+.text3 h3{
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+.text3 h4{
+    font-size: 1.2rem;
+    margin-top: 2px;
+}
+.text4{
+    margin-top: 9%;
+}
+.text4 h3{
+    display: block;
+    color: inherit;
+    font-family: Lora,sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: .075em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.text4 p{
+    display: block;
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    font-family: "Open Sans",sans-serif;
+    margin-top: 1rem;
+    line-height: 40px;
+    color: #777;
+}
+.text4 button{
+    border: 1px solid black;
+    padding: 1.1rem 2.8rem;
+    margin-top: 5px;
+    background-color: white;
+    text-transform: uppercase;
+    transition: color .3s ease,background-color .3s ease,border-color .3s ease;
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+.text4 button:hover{
+    background-color: #1b1b1b;
+    color: white;
+}
+/* Section 3 */
+#section3{
+    position: relative;
+    margin-top: 5%;
+    width: 100%;
+}
+#section3 div img{
+    height: 280px;
+    width: 100%;
+    z-index: -1;
+}
+#review{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-top: -180px;
+}
+.text5{
+    display: inline-block;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+    margin-left: 12%;
+}
+/* Section 4 */
+#section4{
+    position: relative;
+    margin-top: 15%;
+}
+#section4 div h2{
+    text-align: center;
+    color: #1b1b1b;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+#section4 div h3{
+    text-align: center;
+    color: #1b1b1b;
+    font-size: 2rem;
+    margin-top: 0.3rem;
+    font-family: Lora,sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+#product{
+    position: relaative;
+    display: flex;
+    align-items: center;
+}
+.product1{
+    width: 20%;
+    margin-left: 4%;
+    margin-top: 40px;
+}
+#product div img{
+    position: relative;
+    height: 320px;
+    width: 265px;
+    z-index: -1;
+}
+.content{
+    position: absolute;
+    margin-left: 58px;
+    margin-top: -185px;
+    display: none;
+}
+.content button{
+    padding: 15px 25px;
+    background-color: white;
+    border: none;
+    text-transform: uppercase;
+}
+.product1:hover{
+    opacity: 0.5;
+}
+.product1:hover .content{
+    display: block;
+}
+.content button:hover{
+    background-color: #1b1b1b;
+    color: white;
+}
+.tag::after{
+    content: "Sale";
+    font-size: 30px;
+    height: 50px;
+    width: 80px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    padding: 0px 11px;
+    margin-top: -320px;
+    margin-left: 185px;
+}
+/* Section 5 */
+#section5{
+    position: relative;
+    margin-top: 60px;
+    background-image: url(./Media/h2-background-team.jpg);
+    height: auto;
+    max-width: 100%;
+}
+#section5 div h2{
+    text-align: center;
+    color: #1b1b1b;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5rem;
+    font-weight: 400;
+    padding-top: 3%;
+}
+#section5 div h3{
+    text-align: center;
+    color: #1b1b1b;
+    font-size: 2rem;
+    margin-top: 0.3rem;
+    font-family: Lora,sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.team{
+    position: relative;
+    display: inline-block;
+    flex-direction: row;
+    width: 20%;
+    margin-left: 4%;
+    margin-top: 20px;
+}
+.team div img{
+    height: auto;
+    width: 100%;
+}
+.text6{
+    text-align: center;
+    margin-top: 20px;
+}
+.text6 h5{
+    color: #1b1b1b;
+    font-family: Lora,sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.text6 h6{
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-left: -10%;
+    margin-bottom: 10%;
+}
+.logo i{
+    margin-left: 25px;
+    color: #2e2e2e;
+}
+.logo i:hover{
+    color: #777;
+}
+/* Section 6 */
+#section6{
+    position: relative;
+    margin-top: 5%;
+}
+#section6 div img{
+    height: 40vh;
+    width: 100%;
+}
+#section6 h4{
+    text-align: center;
+    color: white;
+    margin-top: -15%;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+#section6 input{
+    width: 30%;
+    padding: 10px 15px;
+    font-size: 22px;
+    color: #777;
+    line-height: 1.3125em;
+    background-color: #fff0e9;
+    border: none;
+}
+#section6 button{
+    position: relative;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    font-size: 18px;
+    background-color: #1b1b1b;
+    color: white;
+}
+#section6 button:hover{
+    background-color: #2e2e2e;
+}
+#search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* Section 7 */
+#section7{
+    position: relative;
+    margin-top: 10%;
+}
+#section7 div h2{
+    text-align: center;
+    color: #1b1b1b;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    font-weight: 400;
+}
+#section7 div h3{
+    text-align: center;
+    color: #1b1b1b;
+    font-size: 2.5rem;
+    margin-top: 0.3rem;
+    font-family: Lora,sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+#flower{
+    margin-left: 8%;
+    margin-top: 20px;
+}
+.flower1{
+    display: flex;
+}
+.flower1 img{
+    position: relative;
+    display: block;
+    height: auto;
+    width: 25vw;
+    margin-left: 2vw;
+    margin-top: 4vh;
+}
+.flower1 img:hover{
+    opacity: 0.7;
+}
+/* footer */
+.footermain{
+    display: flex;
+    flex-direction: row;
+    background-color: #1b1b1b;
+    height: auto;
+    margin-top: 5%;
+    width: 100%;
+    color: #777;
+    text-align: left;
+}
+.footercontant{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.footerlogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: -40px;
+}
+.footerlogo .fa{
+    color: white;
+}
+.footerlogo .fa:hover{
+    color: #777;
+}
+.footerimg{
+    display: flex;
+    flex-direction: row;
+}
+.footerimg img{
+    height: auto;
+    width: 80px;
+    margin: 4px;
+}
+.footerimg img:hover{
+    opacity: 0.7;
+}
+.footerdata h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: white!important;
+}
+.footerdata{
+    color: #777;
+    margin-left: 80px;
+}
+.copyright{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.copyright h6{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+};
